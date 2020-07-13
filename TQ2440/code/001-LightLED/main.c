@@ -1,4 +1,4 @@
-#define REG(x) (*(volatile long long*)(x))
+#define REG(x) (*(volatile int*)(x))
 
 #define GPBCON 0x56000010
 #define GPBDAT 0x56000014
