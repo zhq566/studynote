@@ -309,13 +309,13 @@ void ClearMemory(void)
 
 void Clk0_Enable(int clock_sel)	
 {	// 0:MPLLin, 1:UPLL, 2:FCLK, 3:HCLK, 4:PCLK, 5:DCLK0
-	rMISCCR = rMISCCR&~(7<<4) | (clock_sel<<4);
-	rGPHCON = rGPHCON&~(3<<18) | (2<<18);
+	rMISCCR &= (~(7<<4) | (clock_sel<<4));
+	rGPHCON &= (~(3<<18)) | (2<<18);
 }
 void Clk1_Enable(int clock_sel)
 {	// 0:MPLLout, 1:UPLL, 2:RTC, 3:HCLK, 4:PCLK, 5:DCLK1	
-	rMISCCR = rMISCCR&~(7<<8) | (clock_sel<<8);
-	rGPHCON = rGPHCON&~(3<<20) | (2<<20);
+	rMISCCR &= ~((7<<8) | (clock_sel<<8));
+	rGPHCON &= ~((3<<20) | (2<<20));
 }
 void Clk0_Disable(void)
 {

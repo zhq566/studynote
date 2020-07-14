@@ -717,3 +717,15 @@ void free(void *pt)
 {
 	mallocPt = pt;
 }
+
+
+void ClearPending(int bit)
+{
+	rSRCPND = bit;
+	rINTPND = bit;
+}
+
+void ClearSubPending(int bit)
+{
+	rSUBSRCPND = bit;	
+}

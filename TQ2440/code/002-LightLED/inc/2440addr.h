@@ -659,7 +659,7 @@ extern "C" {
 #define BIT_SUB_RXD0	(0x1<<0)
 
 //Wait until rINTPND is changed for the case that the ISR is very short.
-
+/*
 #define	ClearPending(bit) {\
 			rSRCPND = bit;\
 			rINTPND = bit;\
@@ -668,7 +668,7 @@ extern "C" {
 #define	ClearSubPending(bit) {\
 			rSUBSRCPND = bit;\
 		}
-
+*/
 
 
 #define	EnableIrq(bit)		rINTMSK &= ~(bit)
@@ -676,18 +676,12 @@ extern "C" {
 #define	EnableSubIrq(bit)	rINTSUBMSK &= ~(bit)
 #define	DisableSubIrq(bit)	rINTSUBMSK |= (bit)
 
-/*
-__inline void ClearPending(int bit)
-{
-	rSRCPND = bit;
-	rINTPND = bit;
-}
 
-__inline void ClearSubPending(int bit)
-{
-	rSUBSRCPND = bit;	
-}
-*/
+void ClearPending(int bit);
+
+void ClearSubPending(int bit);
+
+
 //Wait until rINTPND is changed for the case that the ISR is very short.
 
 
