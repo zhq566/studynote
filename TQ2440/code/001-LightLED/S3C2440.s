@@ -210,7 +210,7 @@ CAMDIVN_OFS     EQU     0x18            ; Camera Clock Divider Register  Offset
 ;//       <i> Divider is used only if CAMCLK_SEL = 1
 ;//   </h>
 ;// </e> Clock Setup
-CLOCK_SETUP     EQU     1
+CLOCK_SETUP     EQU     0
 LOCKTIME_Val    EQU     0x0FFF0FFF
 MPLLCON_Val     EQU     0x00043011
 UPLLCON_Val     EQU     0x00038021
@@ -466,7 +466,7 @@ MRSRB7_OFS      EQU     0x30            ; Bank 7 Mode Register           Offset
 ;//       <0=> 1 (Fixed)
 ;//   </h>
 ;// </e> Memory Controller Setup
-MC_SETUP        EQU     1
+MC_SETUP        EQU     0
 BWSCON_Val      EQU     0x22000000
 BANKCON0_Val    EQU     0x00000700
 BANKCON1_Val    EQU     0x00000700
@@ -498,7 +498,7 @@ GPDAT_OFS       EQU     0x04            ; Data Register Offset
 GPUP_OFS        EQU     0x08            ; Pull-up Disable Register Offset
 
 ;// <e> I/O Setup
-GP_SETUP        EQU     1
+GP_SETUP        EQU     0
 
 ;//   <e> Port A Settings
 ;//     <h> Port A Control Register (GPACON)

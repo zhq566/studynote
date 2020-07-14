@@ -13,6 +13,7 @@
 *.uvproj
 *.ini
 *.s
+*.bin
 
 # add directory
 */Listings
