@@ -1,0 +1,142 @@
+!, Delimiter
+
+#, Delimiter
+
+%, Delimiter
+
+&, Delimiter
+
+', Delimiter
+
+(, Delimiter
+
+), Delimiter
+
+*, Delimiter
+
++, Delimiter
+
+",", Delimiter
+
+-, Delimiter
+
+.align, Keyword
+
+.ascii, Keyword
+
+.BREAK, Keyword
+
+.bss, Keyword
+
+.byte, Keyword
+
+.CODE, Keyword
+
+.CONST, Keyword
+
+.CONTINUE, Keyword
+
+.CREF, Keyword
+
+.data, Keyword
+
+.DATA?, Keyword
+
+.define, Keyword
+
+.ELSE, Keyword
+
+.ELSEIF, Keyword
+
+.ENDIF, Keyword
+
+.ENDW, Keyword
+
+.ERR, Keyword
+
+.ERRB, Keyword
+
+.ERRDEF, Keyword
+
+.ERRDEFI, Keyword
+
+.ERRE, Keyword
+
+.ERRIDNI, Keyword
+
+.ERRNB, Keyword
+
+.ERRNDEF, Keyword
+
+.ERRNZ, Keyword
+
+.fill, Keyword
+
+.globl, Keyword
+
+.IF, Keyword
+
+.long, Keyword
+
+.MODEL, Keyword
+
+.NOCREF, Keyword
+
+.quad, Keyword
+
+.RADIX, Keyword
+
+.REPEAT, Keyword
+
+.STACK, Keyword
+.text, Keyword
+
+.UNTIL, Keyword
+.UNTILCXZ, Keyword
+
+.WHILE, Keyword
+.word, Keyword
+
+/, Delimiter
+
+:, Delimiter
+
+;, Delimiter
+
+<, Delimiter
+
+=, Delimiter
+
+>, Delimiter
+
+?, Delimiter
+
+@CATSTR, Keyword
+
+@INSTR, Keyword
+
+@SIZESTR, Keyword
+
+@SUBSTR, Keyword
+
+define, Keyword
+
+elif, Directive
+
+else, Directive
+
+endif, Directive
+
+if, Directive
+
+ifdef, Directive
+
+defined, Directive
+
+ifndef, Directive
+
+include, Keyword
+
+pragma, Keyword
+
+undef, Keyword
